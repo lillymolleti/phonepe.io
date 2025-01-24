@@ -9,7 +9,6 @@ body {
 .colored-section {
     background-color: #6739B6;
     color: #fff;
-    height:80vh;
    
   }
 .heading
@@ -40,7 +39,6 @@ body {
   .image-iphone {
     width: 45%;
     transform: rotate(20deg);
-    position: absolute;
     right: 20%;
   }
   .nav-item-style a {
