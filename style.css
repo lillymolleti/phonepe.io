@@ -9,6 +9,7 @@ body {
 .colored-section {
     background-color: #6739B6;
     color: #fff;
+    height:80vh;
    
   }
 .heading
@@ -17,10 +18,9 @@ body {
     padding:20px;
     font-size:40px;
 }
-
-.grey-section {
-  background-color: #f8f9fa;
-  padding: 50px 0;
+.grey-section{
+    background-color: #f5f5f5;
+    padding:20px;
 }
 .button
 {
@@ -39,6 +39,7 @@ body {
   .image-iphone {
     width: 45%;
     transform: rotate(20deg);
+    position: absolute;
     right: 20%;
   }
   .nav-item-style a {
@@ -84,25 +85,23 @@ body {
   margin:10px;
 
 }
-.text-larger {
-  font-size: 1.5rem;
-  margin-bottom: 20px;
+.text-larger
+{
+  font-size:20px;
 }
-
-.text-smaller {
-  font-size: 1rem;
-  font-style: italic;
-  margin-top: 10px;
+.text-smaller
+{
+  font-size:12px;
 }
-
-.obama {
-  max-width: 150px;
-  border-radius: 50%;
-  margin-bottom: 20px;
+.obama
+{
+  border-radius:50%;
+  height:70px;
+  weight:70px;
+  margin:10px;
 }
-
-.news-img {
-  max-width: 100%;
-  height: auto;
-  margin: 10px 0;
+.news-img
+{
+  width:8%;
+  margin: 20px 40px;
 }
