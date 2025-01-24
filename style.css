@@ -9,16 +9,16 @@ body {
   .colored-section {
     background-color: #6739B6;
     color: #fff;
-    height: 40vh;
+    height:80vh;
   }
   @media only screen and (max-width: 1024px) {
     .colored-section {
-      height: 30vh;
+      height: 40vh;
     }
   }
   @media only screen and (max-width: 300px) {
     .colored-section {
-      height: 20vh;
+      height: 30vh;
     }
   }
 .heading
