@@ -6,11 +6,20 @@ body {
     
   }
 
-.colored-section {
+  .colored-section {
     background-color: #6739B6;
     color: #fff;
-    height:80vh;
-   
+    height: 40vh;
+  }
+  @media only screen and (max-width: 1024px) {
+    .colored-section {
+      height: 30vh;
+    }
+  }
+  @media only screen and (max-width: 300px) {
+    .colored-section {
+      height: 20vh;
+    }
   }
 .heading
 {
@@ -42,6 +51,18 @@ body {
     position: absolute;
     right: 20%;
   }
+  @media only screen and (max-width: 1024px) {
+    #title {
+      text-align: center;
+    }
+    .image-iphone {
+      position: static;
+      transform: rotate(0);
+      width: 50%;
+    }
+  }
+  
+
   .nav-item-style a {
     font-family: 'Montserrat', sans-serif;
     color: white !important;
@@ -97,7 +118,7 @@ body {
 {
   border-radius:50%;
   height:70px;
-  weight:70px;
+  width:70px;
   margin:10px;
 }
 .news-img
