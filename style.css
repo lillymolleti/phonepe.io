@@ -1,0 +1,52 @@
+body {
+    font-family: "Montserrat";
+    text-align: center;
+    margin:0;
+    
+    
+  }
+
+.colored-section {
+    background-color: #6739B6;
+    color: #fff;
+    height:70vh;
+   
+  }
+.heading
+{
+    font-weight:bold;
+    padding:20px;
+    font-size:40px;
+}
+.grey-section{
+    background-color: #f5f5f5;
+}
+.button
+{
+    padding-bottom:20px;
+}
+.navbar-brand img{
+    width: 250px;
+    height: auto;
+  }
+  .push-right{
+    justify-content: flex-end;
+  }
+  .push-left{
+    justify-content: flex-start;
+  }
+  .image-iphone {
+    width: 50%;
+    transform: rotate(20deg);
+    position: absolute;
+    right: 20%;
+  }
+  .nav-item-style a {
+    font-family: 'Montserrat', sans-serif;
+    color: white !important;
+  }
+  .nav-item-style a:hover {
+    font-weight:bold;
+    background-color: rgba(255, 255, 255, 0.1); 
+    border-radius: 4px;
+  }
