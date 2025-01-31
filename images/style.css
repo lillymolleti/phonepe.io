@@ -1,0 +1,128 @@
+body {
+    font-family: "Montserrat";
+    text-align: center;
+    margin:0;
+    
+    
+  }
+
+  .colored-section {
+    background-color: #6739B6;
+    color: #fff;
+    height:80vh;
+  }
+  @media only screen and (max-width: 1024px) {
+    .colored-section {
+      height: 40vh;
+    }
+  }
+  @media only screen and (max-width: 300px) {
+    .colored-section {
+      height: 30vh;
+    }
+  }
+.heading
+{
+    font-weight:bold;
+    padding:20px;
+    font-size:40px;
+}
+.grey-section{
+    background-color: #f5f5f5;
+    padding:20px;
+}
+.button
+{
+    padding-bottom:20px;
+}
+.navbar-brand img{
+    width: 250px;
+    height: auto;
+  }
+  .push-right{
+    justify-content: flex-end;
+  }
+  .push-left{
+    justify-content: flex-start;
+  }
+  .image-iphone {
+    width: 45%;
+    transform: rotate(20deg);
+    position: absolute;
+    right: 20%;
+  }
+  @media only screen and (max-width: 1024px) {
+    #title {
+      text-align: center;
+    }
+    .image-iphone {
+      position: static;
+      transform: rotate(0);
+      width: 50%;
+    }
+  }
+  
+
+  .nav-item-style a {
+    font-family: 'Montserrat', sans-serif;
+    color: white !important;
+  }
+  .nav-item-style a:hover {
+    font-weight:bold;
+    background-color: rgba(255, 255, 255, 0.1); 
+    border-radius: 4px;
+  }
+  /* Remove the border around the hamburger icon
+  .navbar-toggler {
+    border: none;
+    color:white;
+  }
+  */
+  .white-section {
+    background-color: #ffffff;
+    padding: 50px 0;
+  }
+.card-img
+{
+  height:50px;
+  width:50px;
+  margin:10px;
+}
+.card-heading
+{
+  font-weight:bold;
+  margin:10px;
+
+}
+.card
+{
+  margin:10px;
+  padding:20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  background-color:white;
+}
+.card-description
+{
+  margin:10px;
+
+}
+.text-larger
+{
+  font-size:20px;
+}
+.text-smaller
+{
+  font-size:12px;
+}
+.obama
+{
+  border-radius:50%;
+  height:70px;
+  width:70px;
+  margin:10px;
+}
+.news-img
+{
+  width:8%;
+  margin: 20px 40px;
+}
